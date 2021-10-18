@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    background-color: #b55cd3;
+    color: #000000;
+    margin: 50px 0px 30px 0px;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 100;
+    color:#b55cd3;
+    background-color: #252525;
+    padding: 10px;
+    max-width: 70%;
+    margin: 20px auto 20px auto;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 20px;
+    line-height: 1,5;
+    padding-bottom: 50px;
+}
+
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+ul{
+   list-style-type: none;
+   line-height: ;
+   padding-left:0;
+   margin-top: 50px;
+   margin-bottom: 100px; /*GAMBIARRA PARA CRIAR ESPAÇO ABAIXO*/
+}
+
+a{
+    text-decoration: none;
+    color: #5c007a;
+    margin-left: 5px;
+}

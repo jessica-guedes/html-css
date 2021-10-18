@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    background-color: rgb(189, 243, 189);
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(16, 53, 16), rgb(139, 214, 139));
+    padding: 10px;
+    margin:-10px;
+}
+
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+}
+
+header > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.menu ul{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0px;
+    margin-bottom: -10px;
+}
+
+.menu li{
+    padding-bottom: 10px;
+    padding-right: 20px;
+    margin-left: 0px;
+}
+
+main{
+    background-color: #ffffff;
+    width: 70%;
+    margin: 10px auto;
+    padding: 5px 20px ;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+main > h1{
+    font-family: 'android';
+    font-size: 20pt;
+    color: #0b550b;
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main >h2{
+    font-family: 'android';
+    font-size: 15pt;
+    color: #0b550b;
+    background-image: linear-gradient(to left, #ffffff, rgba(0, 128, 0, 0.349));
+    padding-left: 10px;
+}
+
+main >img{
+    width: 100%;
+}
+
+iframe {
+    width: 600px;
+    background-color: rgb(2, 71, 2);
+    padding: 10px 40px;
+    margin-left: -20px;
+}
+
+article{
+    background-color: rgb(198, 235, 198);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+article > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(63, 177, 111);
+    border-radius: 10px 10px 0px 0px;
+}
+
+article > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0px 10px 20px 10px;
+    text-indent: 30px;
+    position: relative;
+}
+
+article .android-item{
+    list-style: none;
+    
+}
+
+article .android-item2{
+    list-style: none;
+    
+}
+
+footer{
+    background-color:#0b550b ;
+    margin: 20px -10px -20px -10px;
+}
+
+footer > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer > p> a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
